@@ -1,4 +1,4 @@
-# react-image-overlay
+# react-image-overlay-effect
 
 > A React component for displaying an overlay effect on an image
 
@@ -15,7 +15,7 @@
 ## Install
 
 ```bash
-yarn add react-image-overlay @emotion/react @emotion/styled
+yarn add react-image-overlay-effect @emotion/react @emotion/styled
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ yarn add react-image-overlay @emotion/react @emotion/styled
 ```tsx
 import React from 'react'
 
-import { ImageOverlay } from 'react-image-overlay'
+import { ImageOverlay } from 'react-image-overlay-effect'
 
 const App = () => (
   <ImageOverlay
