@@ -2,28 +2,44 @@
 
 > A React component for displaying an overlay effect on an image
 
-[![NPM](https://img.shields.io/npm/v/react-image-overlay.svg)](https://www.npmjs.com/package/react-image-overlay) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+<br/>
+<br/>
+
+<p align="center">
+  <img src="./example.gif" />
+</p>
+
+<br/>
+<br/>
 
 ## Install
 
 ```bash
-npm install --save react-image-overlay
+yarn add react-image-overlay
 ```
 
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'react-image-overlay'
-import 'react-image-overlay/dist/index.css'
+import { ImageOverlay } from 'react-image-overlay'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+const App = () => (
+  <ImageOverlay
+    src="https://reactjs.org/logo-og.png"
+    description={<p>A JavaScript library for building user interfaces</p>}
+  )
+)
 ```
+
+## Props
+
+The `ImageOverlay` component can be passed all the props that are supported by the native `img` element except one prop `description`
+
+**description: React.ReactNode**
+
+Use this prop to render a description text when the overlay effect is active.
 
 ## License
 
