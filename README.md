@@ -33,6 +33,10 @@ const App = () => (
 )
 ```
 
+## Demo
+
+Codesandbox - https://codesandbox.io/s/heuristic-tu-n648r?file=/src/App.js
+
 ## Props
 
 The `ImageOverlay` component can be passed all the props that are supported by the native `img` element except one prop `description`
