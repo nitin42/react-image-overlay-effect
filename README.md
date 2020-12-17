@@ -15,7 +15,7 @@
 ## Install
 
 ```bash
-yarn add react-image-overlay
+yarn add react-image-overlay @emotion/react @emotion/styled
 ```
 
 ## Usage
