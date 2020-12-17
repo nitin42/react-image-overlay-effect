@@ -39,9 +39,9 @@ Codesandbox - https://codesandbox.io/s/heuristic-tu-n648r?file=/src/App.js
 
 ## Props
 
-The `ImageOverlay` component can be passed all the props that are supported by the native `img` element except one prop `description`
+The `ImageOverlay` component accepts all the props that are supported by the native `img` element except the prop `description`.
 
-**description: React.ReactNode**
+`description: React.ReactNode`
 
 Use this prop to render a description text when the overlay effect is active.
 
