@@ -2,7 +2,7 @@
   "name": "react-image-overlay",
   "version": "1.0.0",
   "description": "A React component for displaying an overlay effect on an image",
-  "author": "nitin42",
+  "author": "nitintulswani",
   "license": "MIT",
   "repository": "nitin42/react-image-overlay",
   "main": "dist/index.js",
